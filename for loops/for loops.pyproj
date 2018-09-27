@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>adb9d3cc-9381-475e-abbb-afef87b6871f</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>ObjectFunctions.py</StartupFile>
+    <StartupFile>Inheritence.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -21,6 +21,15 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="chefClass.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Inheritence.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ChineseChef.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="Test.py">
       <SubType>Code</SubType>
     </Compile>
